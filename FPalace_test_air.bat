@@ -1,0 +1,1 @@
+d:\code\AIRSDK_Compiler_2018\bin\adl d:\code\FPalace\Main-app.xml
