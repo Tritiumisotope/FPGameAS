@@ -2,7 +2,8 @@
 	import flash.display.Bitmap;
 	
 	public class FPalace_helper{
-		
+		//source folders
+        public static const BGfldr:str = "images\BG\";
 		//fiddlng with images...
 		public static const unknown_img:int = 0;
 		
@@ -444,7 +445,7 @@
 		[Embed (source="linty_namiAndRobin.gif" )]
     	public static const image_1:Class;
 		
-		[Embed (source="462062941.jpg" )]
+		[Embed (source=BGfldr+"462062941.jpg" )]
 		public static const background_test:Class;
 		
 		[Embed (source="human_head_1.gif" )]
