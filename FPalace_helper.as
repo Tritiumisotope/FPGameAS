@@ -2,8 +2,6 @@
 	import flash.display.Bitmap;
 	
 	public class FPalace_helper{
-		//source folders
-        public static const BGfldr:str = "images\BG\";
 		//fiddlng with images...
 		public static const unknown_img:int = 0;
 		
@@ -12,24 +10,36 @@
 		
 		//Background images
 		public static const background_test_img:int = 1;
+        [Embed (source=".\\images\\BG\\462062941.jpg")] public static const background_test:Class;
 		
 		//Character images
 			//human
-			public static const human_head_1_img:int = 2;
-			public static const human_eyes_1_img:int = 3;
+			public static const human_head_1_img:int = 2, human_eyes_1_img:int = 3;
+            [Embed (source=".\\images\\human\\human_head_1.gif" )] public static const human_head_1:Class;
+			//public static const human_eyes_1_img:int = 3;
+            [Embed (source=".\\images\\human\\human_eyes_1.jpg" )] public static const human_eyes_1:Class;
 			public static const human_torso_1_img:int = 4;
+            [Embed (source=".\\images\\human\\human_torso_1.gif" )] public static const human_torso_1:Class;
 			public static const human_hips_1_img:int = 5;
+            [Embed (source=".\\images\\human\\human_hips_1.gif" )] public static const human_hips_1:Class;
 			public static const human_breasts_1_img:int = 6;
+            [Embed (source=".\\images\\human\\human_breasts_1.gif" )] public static const human_breasts_1:Class;
 			public static const human_balls_1_img:int = 7;
+            [Embed (source=".\\images\\human\\human_balls_1.gif" )] public static const human_balls_1:Class;
 			public static const human_penis_1_img:int = 8;
+            [Embed (source=".\\images\\human\\human_penis_1.gif" )] public static const human_penis_1:Class;
 			public static const human_hair_1_img:int = 0;//9
 			public static const human_arm_1_img:int = 10;
+            [Embed (source=".\\images\\human\\human_arm_1.gif" )] public static const human_arm_1:Class;
 			public static const human_hand_1_img:int = 11;
+            [Embed (source=".\\images\\human\\human_hand_1.gif" )] public static const human_hand_1:Class;
 			public static const human_vag_1_img:int = 0;//12
 			public static const human_leg_1_img:int = 13;
+            [Embed (source=".\\images\\human\\human_leg_1.gif" )]public static const human_leg_1:Class;
 			public static const human_foot_1_img:int = 14;
+            [Embed (source=".\\images\\human\\human_foot_1.gif" )]public static const human_foot_1:Class;
 			public static const human_clit_1_img:int = 0;//15
-			
+            
 			//goo
 			public static const goo_head_1_img:int = 2;//16
 			public static const goo_eyes_1_img:int = 3;//17
@@ -378,24 +388,15 @@
     	public static const unknown:Class;
 		
 		
-		[Embed (source="Button_disabledSkin.png")]
-		public static const Button_disabledSkin:Class;
-		[Embed (source="Button_downSkin.png")]
-		public static const Button_downSkin:Class;
-		[Embed (source="Button_emphasizedSkin.png")]
-		public static const Button_emphasizedSkin:Class;
-		[Embed (source="Button_overSkin.png")]
-		public static const Button_overSkin:Class;
-		[Embed (source="Button_selectedDisabledSkin.png")]
-		public static const Button_selectedDisabledSkin:Class;
-		[Embed (source="Button_selectedDownSkin.png")]
-		public static const Button_selectedDownSkin:Class;
-		[Embed (source="Button_selectedOverSkin.png")]
-		public static const Button_selectedOverSkin:Class;
-		[Embed (source="Button_selectedUpSkin.png")]
-		public static const Button_selectedUpSkin:Class;
-		[Embed (source="Button_upSkin.png")]
-		public static const Button_upSkin:Class;
+		[Embed (source="Button_disabledSkin.png")] public static const Button_disabledSkin:Class;
+		[Embed (source="Button_downSkin.png")] public static const Button_downSkin:Class;
+		[Embed (source="Button_emphasizedSkin.png")] public static const Button_emphasizedSkin:Class;
+		[Embed (source="Button_overSkin.png")] public static const Button_overSkin:Class;
+		[Embed (source="Button_selectedDisabledSkin.png")] public static const Button_selectedDisabledSkin:Class;
+		[Embed (source="Button_selectedDownSkin.png")] public static const Button_selectedDownSkin:Class;
+		[Embed (source="Button_selectedOverSkin.png")] public static const Button_selectedOverSkin:Class;
+		[Embed (source="Button_selectedUpSkin.png")] public static const Button_selectedUpSkin:Class;
+		[Embed (source="Button_upSkin.png")] public static const Button_upSkin:Class;
 		
 		[Embed (source="ProgressBar_barSkin.png")]
 		public static const ProgressBar_barSkin:Class;
@@ -445,32 +446,7 @@
 		[Embed (source="linty_namiAndRobin.gif" )]
     	public static const image_1:Class;
 		
-		[Embed (source=BGfldr+"462062941.jpg" )]
-		public static const background_test:Class;
-		
-		[Embed (source="human_head_1.gif" )]
-    	public static const human_head_1:Class;
-		[Embed (source="human_eyes_1.jpg" )]
-    	public static const human_eyes_1:Class;
-		[Embed (source="human_torso_1.gif" )]
-    	public static const human_torso_1:Class;
-		[Embed (source="human_hips_1.gif" )]
-    	public static const human_hips_1:Class;
-		[Embed (source="human_leg_1.gif" )]
-    	public static const human_leg_1:Class;
-		[Embed (source="human_foot_1.gif" )]
-    	public static const human_foot_1:Class;
-		[Embed (source="human_arm_1.gif" )]
-    	public static const human_arm_1:Class;
-		[Embed (source="human_hand_1.gif" )]
-    	public static const human_hand_1:Class;
-		[Embed (source="human_breasts_1.gif" )]
-		public static const human_breasts_1:Class;
-		[Embed (source="human_balls_1.gif" )]
-		public static const human_balls_1:Class;
-		[Embed (source="human_penis_1.gif" )]
-		public static const human_penis_1:Class;
-		
+	
 		[Embed (source="slime_1.gif" )]
 		public static const goo_char_1:Class;
 		
@@ -5006,5 +4982,5 @@
 		}
 						
 	}
-	
+    
 }
